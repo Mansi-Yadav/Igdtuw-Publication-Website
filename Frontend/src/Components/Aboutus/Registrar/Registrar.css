@@ -1,0 +1,127 @@
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.registrar-main{
+    border: 1px solid #011c38;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: white;
+}
+.registrar-main h4{
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+.registrar-heading{
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 1%; 
+    margin-left: auto;
+    margin-right: auto;
+    color: #011c38;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: #8e99a535;
+    text-align: center;
+  }
+
+.registrar-heading h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 1%; 
+    margin-left: auto;
+    margin-right: auto;
+    color: #011c38;;
+    font-weight: bold;
+    font-size: 150%;
+    
+}
+
+  .registrar-img{
+    float: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 1%;
+    height: 195px;
+    width: 155px;
+    float: right;
+    margin: 2%;
+    margin-top: 0px;
+  }
+  
+  .registrar-para{
+    padding: 10px;
+    margin: 5px;
+    color: #011c38;;
+    text-align: justify;
+    height: auto;
+    overflow: auto;
+    font-size: 130%;
+  }
+
+  
+.foot{
+    background: aliceblue;
+    background-color: #011c38;
+    color: #f1f1f1;
+    font-size: small;
+    
+}
+.footer{
+    display: flex;
+    margin:auto;
+    margin-top: 10%;
+    box-shadow: inset;
+    padding-top: 0%;
+    justify-content: center;
+}
+
+.links a{
+    display: block;
+}
+.logos {
+    margin: 6px;
+    color: rgb(24, 24, 209);
+}
+.logos:hover{
+    color: rgb(23, 23, 149);
+}
+.medialinks a{
+    display: inline;
+    color: #f1f1f1;
+}
+.footer2{
+    display: block;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-left: 20%;
+    background-color: #011c38;
+    color: #f1f1f1;
+}
+.footer2 a{
+    color: #f1f1f1;
+}
+.footer2 a:hover{
+    color: #3d2fd4;
+}
+.qlinks a{
+    color: white
+}
+.links,.joinus, .footer1{
+     margin-top: 3%;
+     font-size: medium;
+     padding-top: 0%;
+     gap: 5%;
+     
+}
+
+.footer1{
+    font-size: small;
+}

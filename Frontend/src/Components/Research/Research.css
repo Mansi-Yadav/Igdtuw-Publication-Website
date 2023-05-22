@@ -1,0 +1,352 @@
+
+/* .top{
+    display: flex;
+    padding-top: 1%;
+    flex-direction: row;
+    overflow-x: hidden;
+    margin-top: 0;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-family: Times;
+   
+}
+
+.logo{
+    width: 8%;
+    height: 5%;
+    margin-left: 1%;
+    
+}
+
+.logo3{
+    width: 8%;
+    height: 5%;
+    margin-right: 1%;
+}
+.cllgname{
+    display: inline block;
+    padding-top: 2%;
+    flex-direction: column;
+}
+
+
+.heading1{
+    font-size: 28px;
+    text-align: center;
+    margin-left: 140px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    color: #011c38;
+    font-family: Times;
+    
+}
+.heading2{
+    text-align: center;
+    color: #011c38;
+    font-family: Times;
+}
+.heading3{
+    text-align: center;
+    color: #011c38;
+    font-family: Times;
+}
+.header{
+    
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: rgb(221, 232, 249);
+    padding: 0.01%;
+    margin: 20px;
+    text-align: center;
+} */
+
+/* 
+.navbar{
+    display: flex;
+    margin:0%;
+    padding-left: 3% ;
+    padding-right: 1% ;
+    background-color: #011c38 ;
+    justify-content: space-evenly;
+    border-radius: 1em ;
+    height: 3rem;
+    color: white;
+}
+
+.navbar a{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: normal;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+    font-size: larger;
+    font-family:fansong;
+    flex-direction: row;
+    text-decoration: none;
+}
+.navbar ul{
+    color: white;
+    
+}
+.list{
+    color: #f1f1f1;
+    list-style-type: none;
+}
+.navbar a:hover{
+    color: rgb(171, 173, 202)
+}
+   
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 1em;
+    padding: 1%;
+    margin: 1%;
+    
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 2%;
+    margin: 2%;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } */
+
+
+
+/* Hamburger menu styles */
+
+.menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 1%;
+}
+
+.menu-icon .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #011c38;
+    margin: 4px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 0;
+    display: block;
+}
+
+/* Menu icon animation when menu is open */
+.menu-icon.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-icon.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-icon.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Responsive styles for the expanded menu */
+.navbar {
+    display: flex;
+    margin: 0;
+    padding-left: 3%;
+    padding-right: 1%;
+    background-color: #011c38;
+    justify-content: space-evenly;
+    border-radius: 1em;
+    height: 3rem;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: normal;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all 0.5s ease;
+    font-size: larger;
+    font-family: fansong;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.navbar ul {
+    color: white;
+}
+
+.list {
+    color: #f1f1f1;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.navbar a:hover {
+    color: rgb(171, 173, 202);
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 1em;
+    padding: 1%;
+    margin: 1%;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2%;
+    margin: 2%;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .navbar {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar.open {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #011c38;
+        padding: 10px;
+        border-radius: 0 0 5px 5px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: space-around;
+        width: 40%;
+        height: 30rem;
+    }
+
+    /* .navbar.open li {
+        margin: 10px 0;
+    } */
+
+    .navbar.open a {
+        margin: 0;
+        padding: 5px 0;
+        font-size: 1rem;
+    }
+
+    .dropdown-content {
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px 0;
+    }
+}
+
+
+
+.research-contributors{
+    margin-top: 5%;
+}
+.research-main-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+.research-container-one{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgb(183, 204, 249);
+    background-color: rgb(249, 250, 252);
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    margin-top: 8%;
+    margin-left: 10%;
+   
+}
+.research-container-two{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgb(183, 204, 249);
+    background-color: rgb(249, 250, 252);
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    
+    
+}
+ .research-container-three{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgb(183, 204, 249);
+    background-color: rgb(249, 250, 252);
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    margin-top: 8%;
+    margin-right: 10%;
+ }
+ .research-paper{
+    border: 1px solid #011c38;
+ }
+.pprLink{
+    word-break: break-word;
+}
